@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 44px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    margin-top: 10px;
+    padding: 0px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav img{
+    float: left;
+    height: 30px;
+
+}
+nav .li{
+    float: left;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 24px;
+    background-image: url(/spotify/spotifyimg.webp);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    display: flex;
+    color: white;
+    background-color: black;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0px 12px; */
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vh;
+    cursor: pointer;
+    
+    
+
+}
+.songitemcontainer{
+    margin-top: 40px;
+
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    background-color:white;
+    color: black;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 40px;
+}
+.timestamp{
+    margin:  0 23px;
+
+
+}
+.songinfo{
+    position: absolute;
+    left: 10px;
+    height: 100px;
+    color: aliceblue;
+    width: 300px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
